@@ -1,0 +1,151 @@
+{
+  "routes": [
+    {
+      "routeName": "anyPercent_UR",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 1,
+      "endIndex": 43,
+      "subRoutes": [
+        {
+          "subRouteName": "anyPercentSegment1",
+          "subRouteStart": 22,
+          "subRouteReturn": 23,
+          "startIndex": 4,
+          "endIndex": 4,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "anyPercentSegment2",
+          "subRouteStart": 39,
+          "subRouteReturn": 40,
+          "startIndex": 4,
+          "endIndex": 4,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "anyPercentSegment3",
+          "subRouteStart": 39,
+          "subRouteReturn": 40,
+          "startIndex": 23,
+          "endIndex": 23,
+          "subRouteActive": true
+        }
+      ]
+    },
+    {
+      "routeName": "waterSlope",
+      "fileName": "glitchless_",
+      "routeActive": true,
+      "startIndex": 9,
+      "endIndex": 10,
+      "subRoutes": []
+    },
+    {
+      "routeName": "anyPercentSegment1",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 4,
+      "endIndex": 4,
+      "subRoutes": []
+    },
+    {
+      "routeName": "anyPercentSegment2",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 4,
+      "endIndex": 4,
+      "subRoutes": []
+    },
+    {
+      "routeName": "anyPercentSegment3",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 23,
+      "endIndex": 23,
+      "subRoutes": []
+    },
+    {
+      "routeName": "anyPercentSegment4",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 4,
+      "endIndex": 7,
+      "subRoutes": []
+    },
+    {
+      "routeName": "anyPercent_GL",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 1,
+      "endIndex": 43,
+      "subRoutes": [
+        {
+          "subRouteName": "glitchlessSegments",
+          "subRouteStart": 1,
+          "subRouteReturn": 9,
+          "startIndex": 1,
+          "endIndex": 6,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "glitchlessSegments",
+          "subRouteStart": 11,
+          "subRouteReturn": 12,
+          "startIndex": 8,
+          "endIndex": 8,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "glitchlessSegments",
+          "subRouteStart": 14,
+          "subRouteReturn": 18,
+          "startIndex": 9,
+          "endIndex": 10,
+          "subRouteActive": true
+        },
+
+        {
+          "subRouteName": "glitchlessSegments",
+          "subRouteStart": 21,
+          "subRouteReturn": 26,
+          "startIndex": 11,
+          "endIndex": 14,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "glitchlessSegments",
+          "subRouteStart": 28,
+          "subRouteReturn": 34,
+          "startIndex": 15,
+          "endIndex": 18,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "anyPercentSegment4",
+          "subRouteStart": 39,
+          "subRouteReturn": 40,
+          "startIndex": 4,
+          "endIndex": 7,
+          "subRouteActive": true
+        },
+        {
+          "subRouteName": "glitchlessSegments",
+          "subRouteStart": 39,
+          "subRouteReturn": 42,
+          "startIndex": 19,
+          "endIndex": 20,
+          "subRouteActive": true
+        }
+      ]
+    },
+    {
+      "routeName": "glitchlessSegments",
+      "fileName": "glitchless_",
+      "routeActive": true,
+      "startIndex": 1,
+      "endIndex": 20,
+      "subRoutes": []
+    }
+  ]
+}
