@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d997f6-d712-4dda-8829-7842eb210c3a" name="Changes" comment="added react framework">
+    <list default="true" id="59d997f6-d712-4dda-8829-7842eb210c3a" name="Changes" comment="removed old files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alternativeRoutes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeData.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeLogic.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeSegments.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/segments.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorialData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/videoFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoFunctions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +46,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master2",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Robin/WebstormProjects/react_interactive_route_guide",
     "node.js.detected.package.eslint": "true",
@@ -151,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723995013872</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed old files">
+      <option name="closed" value="true" />
+      <created>1723995854288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723995854288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +178,7 @@
     <MESSAGE value="Removed public folder temporarily" />
     <MESSAGE value="Added react framework" />
     <MESSAGE value="something" />
-    <option name="LAST_COMMIT_MESSAGE" value="something" />
+    <MESSAGE value="removed old files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed old files" />
   </component>
 </project>

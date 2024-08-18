@@ -11,10 +11,27 @@ export let video2;
 export function VideoPlayer(){
     return (
         <>
-            <video ref={video} src="" className="videos" id="Videos" style={{display: "none"}}>
-
+            <video
+                ref={video}
+                src=""
+                className="videos"
+                id="Videos"
+                style={{display: "none"}}
+                onEnded={()=>nextVideo(true)}
+                onTimeUpdate={updateSlider}
+                onResize={videoResize}
+            >
             </video>
-            <video ref={video2} src="" className="videos" id="Videos2" style={{display: "none"}}>
+            <video
+                ref={video2}
+                src=""
+                className="videos"
+                id="Videos2"
+                style={{display: "none"}}
+                onEnded={()=>nextVideo(false)}
+                onTimeUpdate={updateSlider}
+                onResize={videoResize}
+            >
 
             </video>
         </>
@@ -24,6 +41,7 @@ export function VideoPlayer(){
 export function InitVideoRefs(){
     video = useRef(null);
     video2 = useRef(null);
+
 }
 
 export function resetVideoCounter() {
