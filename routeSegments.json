@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "routeName": "anyPercentSegments",
+      "fileName": "anyPercent_",
+      "routeActive": true,
+      "startIndex": 1,
+      "endIndex": 43,
+      "subRoutes": []
+    },
+    {
+      "routeName": "glitchlessSegments",
+      "fileName": "glitchless_",
+      "routeActive": true,
+      "startIndex": 1,
+      "endIndex": 20,
+      "subRoutes": []
+    }
+  ]
+}
