@@ -1,0 +1,305 @@
+{
+  "info": [
+    {
+      "index": 1,
+      "leftPosition": 3248,
+      "topPosition": 2378,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 2,
+      "leftPosition": 5113,
+      "topPosition": 1658,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 3,
+      "leftPosition": 4930,
+      "topPosition": 1473,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 4,
+      "leftPosition": 5110,
+      "topPosition": 1472,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 5,
+      "leftPosition": 5757,
+      "topPosition": 1470,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 6,
+      "leftPosition": 6215,
+      "topPosition": 1375,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 7,
+      "leftPosition": 5747,
+      "topPosition": 1359,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 8,
+      "leftPosition": 5358,
+      "topPosition": 1070,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 9,
+      "leftPosition": 5103,
+      "topPosition": 1011,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 10,
+      "leftPosition": 4841,
+      "topPosition": 896,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 11,
+      "leftPosition": 4460,
+      "topPosition": 995,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 12,
+      "leftPosition": 3801,
+      "topPosition": 1045,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 13,
+      "leftPosition": 2626,
+      "topPosition": 1052,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 14,
+      "leftPosition": 1861,
+      "topPosition": 1239,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 15,
+      "leftPosition": 1596,
+      "topPosition": 1279,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 16,
+      "leftPosition": 1862,
+      "topPosition": 1449,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 17,
+      "leftPosition": 2631,
+      "topPosition": 1747,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 18,
+      "leftPosition": 2560,
+      "topPosition": 2283,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 19,
+      "leftPosition": 3029,
+      "topPosition": 2633,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 20,
+      "leftPosition": 4461,
+      "topPosition": 2490,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 21,
+      "leftPosition": 5100,
+      "topPosition": 1645,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 22,
+      "leftPosition": 4929,
+      "topPosition": 1472,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 23,
+      "leftPosition": 5751,
+      "topPosition": 1358,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 24,
+      "leftPosition": 5535,
+      "topPosition": 1107,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 25,
+      "leftPosition": 5747,
+      "topPosition": 956,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 26,
+      "leftPosition": 6017,
+      "topPosition": 956,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 27,
+      "leftPosition": 6671,
+      "topPosition": 962,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 28,
+      "leftPosition": 6002,
+      "topPosition": 1201,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 29,
+      "leftPosition": 5740,
+      "topPosition": 1065,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 30,
+      "leftPosition": 5366,
+      "topPosition": 1067,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 31,
+      "leftPosition": 4839,
+      "topPosition": 1063,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 32,
+      "leftPosition": 4460,
+      "topPosition": 1072,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 33,
+      "leftPosition": 4082,
+      "topPosition": 1229,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 34,
+      "leftPosition": 3920,
+      "topPosition": 1635,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 35,
+      "leftPosition": 4462,
+      "topPosition": 1938,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 36,
+      "leftPosition": 4849,
+      "topPosition": 1944,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 37,
+      "leftPosition": 4054,
+      "topPosition": 1936,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 38,
+      "leftPosition": 3954,
+      "topPosition": 1757,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 39,
+      "leftPosition": 4460,
+      "topPosition": 1445,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 40,
+      "leftPosition": 5541,
+      "topPosition": 1109,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 41,
+      "leftPosition": 5752,
+      "topPosition": 1070,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 42,
+      "leftPosition": 6929,
+      "topPosition": 863,
+      "zoom": 0.4,
+      "roomIds": []
+    },
+    {
+      "index": 43,
+      "leftPosition": 7913,
+      "topPosition": 844,
+      "zoom": 0.4,
+      "roomIds": []
+    }
+  ]
+}

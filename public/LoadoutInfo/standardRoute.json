@@ -1,0 +1,33 @@
+{
+  "info": [
+    {
+      "index": 1,
+      "itemsCollected": [
+        "missile tank",
+        "e-part",
+        "missile tank"
+      ],
+      "upgradeCollected": ""
+      ,
+      "setupsUsed": [
+        "Skew"
+      ],
+      "additionalInfo": [
+        "Some random text. This should probably be a link!"
+      ]
+    },
+    {
+      "index": 2,
+      "itemsCollected": [
+        "missile tank +"
+      ],
+      "upgradeCollected": "Screw Attack",
+      "setupsUsed": [
+        ""
+      ],
+      "additionalInfo": [
+        "Some random text. This should probably be another link!"
+      ]
+    }
+  ]
+}

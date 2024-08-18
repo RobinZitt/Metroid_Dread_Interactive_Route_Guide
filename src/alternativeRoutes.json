@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "routeName": "waterSlope",
+      "fileName": "glitchless_",
+      "routeActive": true,
+      "startIndex": 9,
+      "endIndex": 10,
+      "subRoutes": [],
+      "categories": [
+        {
+          "name": "anyPercent_UR",
+          "subRouteStart": 14,
+          "subRouteReturn": 17
+        }
+      ]
+    }
+  ]
+}
