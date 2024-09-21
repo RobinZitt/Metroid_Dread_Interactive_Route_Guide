@@ -66,7 +66,7 @@ export async function generateRoute() {
     let allRouteData = [];
     let currentLoadoutData = new LoadOutData(30,0,0,[],[]);//TODO change missile count for normal mode
     arrowOrderedData = [];
-    let currentRoomIds = [];
+    //let currentRoomIds = [];
     let roomIndex = 0;
     //Load data into allRouteData
     for (let i = 0; i < routeData.routes.length; i++) {
@@ -153,15 +153,14 @@ export async function generateRoute() {
     }
     updateGuideView(false, false);
     document.getElementById("videoSlider").value = 0;
+    console.log(completeRoute)
 }
 
 function getRoute(){
-    //let glitchCategorySelect = document.getElementById("glitchCategorySelect");
-    //let glitchCategory = glitchCategorySelect.options[glitchCategorySelect.selectedIndex].text.toString();
-    //let categorySelect = document.getElementById("categorySelect");
-    let category = "Any%";
-    let glitchCategory = "Unrestricted";
-    //let category = categorySelect.options[categorySelect.selectedIndex].text.toString();
+    let glitchCategorySelect = document.getElementById("glitchCategorySelect");
+    let glitchCategory = glitchCategorySelect.options[glitchCategorySelect.selectedIndex].text.toString();
+    let categorySelect = document.getElementById("categorySelect");
+    let category = categorySelect.options[categorySelect.selectedIndex].text.toString();
     let categoryName = "";
     let glitchCategoryName = "";
     switch (category){

@@ -93,6 +93,10 @@
   min-width: 200px;
 }
 
+.routeSelection .dropdown-content label:hover {
+  background-color: red;
+}
+
 
 .loadoutInfo {
   float: left;

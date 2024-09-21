@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59d997f6-d712-4dda-8829-7842eb210c3a" name="Changes" comment="Fixed missing video functions and updated README.md">
+    <list default="true" id="59d997f6-d712-4dda-8829-7842eb210c3a" name="Changes" comment="Made the buttons a bit bigger, moved the video controls below the video and made the side more responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loadRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/loadRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/videoFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/videoFunctions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,7 @@
       <workItem from="1726666713654" duration="8255000" />
       <workItem from="1726752081459" duration="3640000" />
       <workItem from="1726786913823" duration="268000" />
-      <workItem from="1726926928581" duration="2136000" />
+      <workItem from="1726926928581" duration="4226000" />
     </task>
     <task id="LOCAL-00001" summary="Added react framework">
       <option name="closed" value="true" />
@@ -172,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723997359148</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Made the buttons a bit bigger, moved the video controls below the video and made the side more responsive">
+      <option name="closed" value="true" />
+      <created>1726930880786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726930880786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +206,7 @@
     <MESSAGE value="something" />
     <MESSAGE value="removed old files" />
     <MESSAGE value="Fixed missing video functions and updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed missing video functions and updated README.md" />
+    <MESSAGE value="Made the buttons a bit bigger, moved the video controls below the video and made the side more responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the buttons a bit bigger, moved the video controls below the video and made the side more responsive" />
   </component>
 </project>

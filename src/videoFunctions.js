@@ -114,7 +114,6 @@ export function changeVideo(isVideo1, autoPlay, playFromEnd = false) {//get isVi
 export function playPause(){
     let isVideo1=(video.current.style.display === "block");
     let currentVideo = isVideo1 ? video.current : video2.current;
-    console.log(currentVideo.paused)
     if (currentVideo.paused) currentVideo.play();
     else currentVideo.pause();
 }
