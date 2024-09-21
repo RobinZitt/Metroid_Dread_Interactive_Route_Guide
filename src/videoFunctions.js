@@ -1,6 +1,6 @@
 import {updateGuideView} from './App';
 import {completeRoute} from "./loadRoute";
-import {useRef} from "react";
+import React, {useRef} from "react";
 
 export let videoCounter = 0;
 const videosFolderName = "./Videos/";
@@ -17,7 +17,7 @@ export function VideoPlayer(){
                 className="videos"
                 id="Videos"
                 style={{display: "none"}}
-                onEnded={()=>nextVideo(true)}
+                onEnded={() => nextVideo(true)}
                 onTimeUpdate={updateSlider}
                 onResize={videoResize}
             >
@@ -28,17 +28,32 @@ export function VideoPlayer(){
                 className="videos"
                 id="Videos2"
                 style={{display: "none"}}
-                onEnded={()=>nextVideo(false)}
+                onEnded={() => nextVideo(false)}
                 onTimeUpdate={updateSlider}
                 onResize={videoResize}
             >
 
             </video>
+            <div id="videoControls" style={{display: "none"}}>
+                <button onClick={playPause} id="playButton" className="controlButtons">&#9654;
+                    <strong>||</strong></button>
+                <label id="videoSliderLabel">
+                    <input onInput={progressBar} type="range" id="videoSlider"/>
+                </label>
+                <button onClick={fullscreen} id="fullscreenButton" className="controlButtons">&#x26F6;</button>
+                <button onClick={previousVideo} id="previousButton"
+                        className="controlButtons">&#9668;&#9668;</button>
+                <button onClick={nextVideo} id="nextButton" className="controlButtons">&#9658;&#9658;</button>
+                <button id="volumeButton" className="controlButtons">&#x1F50A;</button>
+                <label id="volumeSliderLabel" style={{marginRight: "-133px"}}>
+                    <input onInput={changeVolume} type="range" id="volumeSlider" min="0" max="1" step="0.1"/>
+                </label>
+            </div>
         </>
     );
 }
 
-export function InitVideoRefs(){
+export function InitVideoRefs() {
     video = useRef(null);
     video2 = useRef(null);
 
@@ -49,21 +64,21 @@ export function resetVideoCounter() {
 }
 
 //Show the next video in the array. Is usually called after the last video ended
-export function nextVideo(isVideo1 = (video.current.style.display === "block"),autoplay=true){
-    if (videoCounter >= completeRoute.length -1) return;
+export function nextVideo(isVideo1 = (video.current.style.display === "block"), autoplay = true) {
+    if (videoCounter >= completeRoute.length - 1) return;
     videoCounter++;
-    updateGuideView(isVideo1,autoplay,false);
+    updateGuideView(isVideo1, autoplay, false);
 }
 
 //Show the previous video
-export function previousVideo(isVideo1=(video.current.style.display === "block"),autoplay=true,playFromEnd=false){
+export function previousVideo(isVideo1 = (video.current.style.display === "block"), autoplay = true, playFromEnd = false) {
     if (videoCounter < 1) return;
     videoCounter--;
-    updateGuideView(isVideo1,autoplay,playFromEnd);
+    updateGuideView(isVideo1, autoplay, playFromEnd);
 }
 
 //Shows the current video and hides the other one. Loads the next video in the background if possible
-export function changeVideo(isVideo1,autoPlay,playFromEnd=false){//get isVideo1 from blocked?
+export function changeVideo(isVideo1, autoPlay, playFromEnd = false) {//get isVideo1 from blocked?
     let currentVideo = isVideo1 ? video.current : video2.current;
     let nextVideo = isVideo1 ? video2.current : video.current;
     currentVideo.pause();

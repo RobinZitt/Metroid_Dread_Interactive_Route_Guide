@@ -2,7 +2,18 @@ import './App.css';
 import React from "react";
 import {useRef} from "react";
 import {closeMap, changeMap, updateZoom, updateDisplayStyle, openMap, zoom, ShowMap, mapOpen} from './mapFunctions';
-import {changeVideo, changeVolume, fullscreen, fullscreenChanger, InitVideoRefs, nextVideo, playPause, previousVideo, progressBar, video, video2, VideoPlayer} from './videoFunctions';
+import {
+    changeVideo,
+    fullscreenChanger,
+    InitVideoRefs,
+    nextVideo,
+    playPause,
+    previousVideo,
+    video,
+    video2,
+    VideoPlayer,
+    videoResize
+} from './videoFunctions';
 import {updateLoadoutData, closeLoadoutInfo, openLoadoutInfo, LoadAdditionalInfo} from './loadoutFunctions';
 import {AllLabels, generateRoute, updateAlternatives} from "./loadRoute";
 
@@ -25,8 +36,9 @@ function App() {
     });
     window.addEventListener("resize",function (){
         zoom();
+        videoResize();
     });
-    document.addEventListener('keydown', function (event){//todo fix key inputs
+    document.addEventListener('keydown', function (event){
         if (video.current.style.display === "none" && video2.current.style.display === "none") return;
         let isVideo1=(video.current.style.display === "block");
         let currentVideo = isVideo1 ? video.current : video2.current;
@@ -88,23 +100,8 @@ function App() {
                         Map
                     </button>
                 </div>
-                <div id="vCon" className="videoContainer" style={{float: "left"}}>
+                <div id="vCon" className="videoContainer">
                     <VideoPlayer/>
-                    <div id="videoControls" style={{display: "none"}}>
-                        <button onClick={playPause} id="playButton" className="controlButtons">&#9654;
-                            <strong>||</strong></button>
-                        <label id="videoSliderLabel">
-                            <input onInput={progressBar} type="range" id="videoSlider"/>
-                        </label>
-                        <button onClick={fullscreen} id="fullscreenButton" className="controlButtons">&#x26F6;</button>
-                        <button onClick={previousVideo} id="previousButton"
-                                className="controlButtons">&#9668;&#9668;</button>
-                        <button onClick={nextVideo} id="nextButton" className="controlButtons">&#9658;&#9658;</button>
-                        <button id="volumeButton" className="controlButtons">&#x1F50A;</button>
-                        <label id="volumeSliderLabel" style={{marginRight: "-133px"}}>
-                            <input onInput={changeVolume} type="range" id="volumeSlider" min="0" max="1" step="0.1"/>
-                        </label>
-                    </div>
                 </div>
                 <div id="sidepanel" className="sidepanel" style={{width: 0}}>
                     {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
